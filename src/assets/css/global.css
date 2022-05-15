@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+    --darkblue: #28354e;
+    --darkblue2: #3a4a67;
+    --blue: #5177ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    /* outline: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input,
+textarea {
+    outline: none;
+    border: none;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-blue {
+    background: var(--blue);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Rubik, sans-serif;
+    background: var(--darkblue);
+    color: white;
+}
+
+.logo {
+    font-family: Righteous, sans-serif;
+}
+
+nav.navigation {
+    z-index: 999;
+    text-align: center;
+    background: var(--darkblue);
+    line-height: 100px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 3rem;
+}
+
+ul.navigation-links {
+    display: inline-flex;
+    list-style: none;
+}
+
+ul.navigation-links li {
+    font-size: 20px;
+    margin: 0 2.5rem;
+    color: white;
+}
+
+ul.navigation-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-space {
+    margin: 0 7rem;
+}
+
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    font-size: 45px;
+    margin-top: -20px;
+    width: 120px;
+    margin-left: -60px;
+}
+
+footer {
+    font-size: 14px;
+    background: #1a2334;
+    text-align: center;
+    padding: 0.5rem;
+}

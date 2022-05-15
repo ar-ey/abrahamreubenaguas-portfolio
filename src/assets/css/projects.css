@@ -1,0 +1,73 @@
+:root {
+    --darkblue: #28354e;
+    --darkblue2: #3a4a67;
+    --blue: #5177ff;
+}
+
+main.projects {
+    max-width: 1500px;
+    width: 85%;
+    margin: 1rem auto;
+}
+
+main.projects .title {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+main.projects .title .icon {
+    position: absolute;
+    transform: scaleX(-1);
+    top: 25px;
+    font-size: 40px;
+    right: -70px;
+}
+
+.projects-container {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 3rem;
+    grid-row-gap: 4rem;
+    margin-top: 3rem;
+}
+
+.project .img-container {
+    border-radius: 10px;
+    background: var(--darkblue2);
+    padding: 0.7rem;
+    width: 100%;
+    height: 230px;
+}
+
+.project .img-container img {
+    border-radius: calc(0.7rem - 10px);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project {
+    position: relative;
+}
+
+.project .project-tag {
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    margin-top: 1rem;
+    right: 0;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 0.6rem 0.8rem;
+}
+
+.project .project-title {
+    margin-top: 1.5rem;
+    font-size: 18px;
+    text-align: center;
+}
