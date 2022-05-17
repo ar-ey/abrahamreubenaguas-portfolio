@@ -15,7 +15,7 @@ export default function Home() {
 
             <main className="flex">
                 <section className="hello home-text">
-                    <p>hello, I am</p>
+                    <p>hello,s I am</p>
                     <h1>ABRAHAM</h1>
                     <p>Student Web Developer | UI Designer </p>
                     <div className="hello-btns one flex">
