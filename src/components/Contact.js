@@ -39,7 +39,7 @@ export default function Contact() {
 
                         <input type="hidden" name="_subject" value="Portfolio Message"></input>
                         <input type="hidden" name="_autoresponse" value={reply}></input>
-                        <input type="hidden" name="_next" value="http://localhost:3000/success"></input>
+                        <input type="hidden" name="_next" value="https://abrahamreubenaguas-portfolio.herokuapp.com/success"></input>
                     </form>
                 </section>
                 <section className="contact-info">
