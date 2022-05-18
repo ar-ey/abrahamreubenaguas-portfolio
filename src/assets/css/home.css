@@ -154,7 +154,8 @@ section.image .image-container img {
         text-align: center;
         margin-bottom: 3.5rem;
     }
-    .hello-btns.one {
+    .hello-btns.one,
+    .hello-btns.two {
         position: relative;
         justify-content: center;
     }
@@ -172,12 +173,23 @@ section.image .image-container img {
         padding: 1.2vw;
     }
     .small-info {
+        text-align: center;
         margin-top: 3.5rem;
+        width: 90%;
     }
     .small-info h1 {
         font-size: 2.5vw;
     }
     .small-info p {
+        text-align: center;
+        text-indent: 0;
         font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.image .image-container {
+        width: 70vw;
+        height: 70vw;
     }
 }
