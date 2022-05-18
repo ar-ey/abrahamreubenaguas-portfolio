@@ -7,7 +7,7 @@
     /* position: relative; */
 }
 
-main {
+main.home {
     /* max-width: 1500px; */
     justify-content: center;
     align-items: center;
@@ -120,4 +120,64 @@ section.image .image-container img {
     text-align: justify;
     font-weight: 300;
     text-indent: 2rem;
+}
+
+@media screen and (max-width: 1225px) {
+    .hello h1 {
+        font-size: 4.8vw;
+    }
+    .hello p:first-of-type {
+        font-size: 2.5vw;
+    }
+    .hello p:last-of-type {
+        font-size: 1.2vw;
+    }
+    .hello-btns button {
+        font-size: 1.2vw;
+        padding: 0.8vw;
+    }
+    .small-info h1 {
+        font-size: 2.1vw;
+    }
+    .small-info p {
+        font-size: 1.4vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main.home {
+        flex-direction: column;
+        margin: 1rem 0;
+        height: auto;
+    }
+    main.home .hello {
+        text-align: center;
+        margin-bottom: 3.5rem;
+    }
+    .hello-btns.one {
+        position: relative;
+        justify-content: center;
+    }
+    .hello h1 {
+        font-size: 7.8vw;
+    }
+    .hello p:first-of-type {
+        font-size: 4.5vw;
+    }
+    .hello p:last-of-type {
+        font-size: 2.2vw;
+    }
+    .hello-btns button {
+        font-size: 1.6vw;
+        padding: 1.2vw;
+    }
+    .small-info {
+        margin-top: 3.5rem;
+    }
+    .small-info h1 {
+        font-size: 2.5vw;
+    }
+    .small-info p {
+        font-size: 1.8vw;
+    }
 }

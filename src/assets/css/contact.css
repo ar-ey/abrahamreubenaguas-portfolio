@@ -23,13 +23,12 @@
 
 main.contact {
     max-width: 1200px;
-    width: 75%;
+    width: 85%;
     margin: 1rem auto;
 }
 
 main.contact .title {
-    display: inline-flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     position: relative;
     font-size: 45px;
@@ -91,4 +90,36 @@ button.send-message {
 .contact-info .detail .icon {
     font-size: 27px;
     margin-right: 0.8rem;
+}
+
+@media screen and (max-width: 1110px) {
+    main.contact {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main.contact {
+        width: 95%;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 42vw;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .contact-container {
+        flex-direction: column-reverse;
+    }
+    .contact-info {
+        margin-bottom: 3rem;
+    }
+    .contact-info .detail {
+        justify-content: center;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 70vw;
+    }
 }

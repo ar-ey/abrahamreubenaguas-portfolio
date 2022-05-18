@@ -13,9 +13,9 @@ export default function Home() {
         <>
             {video && <div className="video-container"> <iframe width="80%" height="600" src="https://www.youtube.com/embed/QTwXZOCL_HE"> </iframe><MdOutlineClose className="close-video" onClick={videoClicked} /></div>}
 
-            <main className="flex">
+            <main className="home flex">
                 <section className="hello home-text">
-                    <p>hello,s I am</p>
+                    <p>hello, I am</p>
                     <h1>ABRAHAM</h1>
                     <p>Student Web Developer | UI Designer </p>
                     <div className="hello-btns one flex">

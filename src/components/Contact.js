@@ -24,9 +24,10 @@ export default function Contact() {
 
     return (
         <main className="contact">
-            <h1 className="title">contact me</h1>
+
             <div className="contact-container flex">
                 <section className="contact-form">
+                    <h1 className="title">contact me</h1>
                     <form action="https://formsubmit.co/c8e4596c94db537d0475a79c9dcaec21" method="POST">
                         <p className="input-label">How should I call you?</p>
                         <input type="text" name="name" placeholder="Enter your name" onChange={handleInput} value={formData.name} />
