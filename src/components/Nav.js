@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { FaBars } from 'react-icons/fa'
 
 export default function Nav() {
-
+    const [burger, setBurger] = React.useState(false)
     function toggleMenu() {
         setBurger(prevState => !prevState)
     }
