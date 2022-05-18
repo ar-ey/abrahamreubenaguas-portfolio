@@ -44,7 +44,7 @@ section.certificates .title .icon {
     grid-template-columns: repeat(3, auto);
     grid-column-gap: 3rem;
     grid-row-gap: 4rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .certificate .img-container {
@@ -80,4 +80,24 @@ section.certificates .title .icon {
 .certificate .certificate-title {
     font-size: 18px;
     text-align: center;
+}
+
+@media screen and (max-width: 870px) {
+    .certificates-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .certificates-container {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 10% auto 0 auto;
+    }
+    main.about .title {
+        font-size: 7vw;
+    }
+    section.certificates .title .icon {
+        display: none;
+    }
 }

@@ -33,7 +33,7 @@ main.projects .title .icon {
     grid-template-columns: repeat(3, auto);
     grid-column-gap: 3rem;
     grid-row-gap: 4rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .project .img-container {
@@ -70,4 +70,31 @@ main.projects .title .icon {
     margin-top: 1.5rem;
     font-size: 18px;
     text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .project .project-tag {
+        font-size: 1vw;
+        padding: 1vw;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .projects-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 10% auto 0 auto;
+    }
+    main.projects .title {
+        font-size: 7vw;
+    }
+    main.projects .title .icon {
+        display: none;
+    }
 }

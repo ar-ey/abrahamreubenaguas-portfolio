@@ -11,25 +11,23 @@ export default function Nav() {
     {
         left: burger ? 0 : ""
     }
-    React.useEffect(() => {
 
-    }, [burger])
 
     return (
 
         <nav className="navigation">
             <div className="main-navigation flex">
-                <div className="burger" onClick={toggleMenu}>
+                <div className="burger" >
                     <input type="checkbox" name="" id="check" />
-                    <label htmlFor="check"><FaBars className="burger" /></label>
+                    <label htmlFor="check" onClick={toggleMenu}><FaBars className="burger" /></label>
                 </div>
                 < section >
                     <ul className="navigation-links" style={navStyle}>
-                        <li className="link"><Link to="/home">home</Link></li>
-                        <li className="link"><Link to="/projects">projects</Link></li>
+                        <li className="link"><Link to="/home" onClick={toggleMenu}>home</Link></li>
+                        <li className="link"><Link to="/projects" onClick={toggleMenu}>projects</Link></li>
                         <div className="logo-space"></div>
-                        <li className="link"><Link to="/about">about</Link></li>
-                        <li className="link"><Link to="/contact">contact</Link></li>
+                        <li className="link"><Link to="/about" onClick={toggleMenu}>about</Link></li>
+                        <li className="link"><Link to="/contact" onClick={toggleMenu}>contact</Link></li>
                     </ul></section>
                 <div className="logo">ar-ey</div>
             </div>

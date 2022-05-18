@@ -70,12 +70,17 @@ nav.navigation {
 }
 
 .burger input {
-    /* display: none; */
+    display: none;
+}
+
+.burger label {
+    cursor: pointer;
 }
 
 ul.navigation-links {
     display: inline-flex;
     list-style: none;
+    transition: all 0.5s;
 }
 
 ul.navigation-links li {
