@@ -123,3 +123,34 @@ button.send-message {
         width: 70vw;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .contact-info h1 {
+        font-size: 12vw;
+    }
+    main.contact .title {
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-info .detail {
+        font-size: 3.5vw;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .contact-info .detail p {
+        background: #3a4a67;
+        width: 70vw;
+        border-radius: 10px;
+        padding: 0.7rem;
+    }
+    .contact-info h1,
+    main.contact .title {
+        text-align: center;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 4vw;
+    }
+}

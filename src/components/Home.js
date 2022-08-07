@@ -20,7 +20,7 @@ export default function Home() {
                     <p>Student Web Developer | UI Designer </p>
                     <div className="hello-btns one flex">
                         <Link to="/blog"><button className="btn btn-blue">read blog</button></Link>
-                        <button className="btn btn-blue video" onClick={videoClicked}>Watch my Video Resume <BsFillPlayCircleFill className="play-icon" /></button>
+                        {/* <button className="btn btn-blue video" onClick={videoClicked}>Watch my Video Resume <BsFillPlayCircleFill className="play-icon" /></button> */}
                     </div>
                 </section>
                 <section className="image">
@@ -36,6 +36,7 @@ export default function Home() {
 
                     </div>
                 </section>
-            </main></>
+            </main>
+        </>
     )
 }
