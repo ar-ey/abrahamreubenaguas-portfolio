@@ -25,7 +25,8 @@ iframe {
     margin-left: -40%;
 }
 
-.video-container {
+
+/* .video-container {
     width: 70%;
     position: relative;
     margin: 0 auto;
@@ -37,7 +38,7 @@ iframe {
     right: 20px;
     cursor: pointer;
     font-size: 40px;
-}
+} */
 
 section.image .image-container {
     margin: 0 2.5rem;
@@ -79,7 +80,7 @@ section.image .image-container img {
 }
 
 .hello-btns button {
-    font-size: 16px;
+    font-size: clamp(0.7rem, 1vw, 2rem);
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -91,17 +92,17 @@ section.image .image-container img {
 }
 
 .hello p:first-of-type {
-    font-size: 25px;
+    font-size: clamp(1rem, 2.5vw, 2rem);
     font-weight: 300;
 }
 
 .hello p:last-of-type {
-    font-size: 14px;
+    font-size: clamp(0.6rem, 1.5vw, 1rem);
     font-weight: 400;
 }
 
 .hello h1 {
-    font-size: 55px;
+    font-size: clamp(2rem, 7vw, 3.5rem);
 }
 
 .home-text {
@@ -114,16 +115,18 @@ section.image .image-container img {
 
 .small-info h1 {
     margin-bottom: 0.5rem;
+    font-size: clamp(0.8rem, 7vw, 1.5rem);
 }
 
 .small-info p {
     text-align: justify;
+    font-size: clamp(0.7rem, 2vw, 1rem);
     font-weight: 300;
     text-indent: 2rem;
 }
 
 @media screen and (max-width: 1225px) {
-    .hello h1 {
+    /* .hello h1 {
         font-size: 4.8vw;
     }
     .hello p:first-of-type {
@@ -131,17 +134,17 @@ section.image .image-container img {
     }
     .hello p:last-of-type {
         font-size: 1.2vw;
-    }
+    } */
     /* .hello-btns button {
         font-size: 1.2vw;
         padding: 0.8vw;
     } */
-    .small-info h1 {
+    /* .small-info h1 {
         font-size: 2.1vw;
     }
     .small-info p {
         font-size: 1.4vw;
-    }
+    } */
 }
 
 @media screen and (max-width: 1000px) {
@@ -159,7 +162,7 @@ section.image .image-container img {
         position: relative;
         justify-content: center;
     }
-    .hello h1 {
+    /* .hello h1 {
         font-size: 7.8vw;
     }
     .hello p:first-of-type {
@@ -167,23 +170,23 @@ section.image .image-container img {
     }
     .hello p:last-of-type {
         font-size: 2.2vw;
-    }
-    .hello-btns button {
+    } */
+    /* .hello-btns button {
         font-size: 1.6vw;
-        /* padding: 1.2vw; */
-    }
+        /* padding: 1.2vw; 
+    } */
     .small-info {
         text-align: center;
         margin-top: 3.5rem;
         width: 90%;
     }
-    .small-info h1 {
+    /* .small-info h1 {
         font-size: 2.5vw;
-    }
+    } */
     .small-info p {
-        text-align: center;
+        /* text-align: center; */
         text-indent: 0;
-        font-size: 1.8vw;
+        /* font-size: 1.8vw; */
     }
 }
 
@@ -192,10 +195,10 @@ section.image .image-container img {
         width: 70vw;
         height: 70vw;
     }
-    .hello-btns button {
+    /* .hello-btns button {
         font-size: 2vw;
-        /* padding: 1.2vw; */
-    }
+        /* padding: 1.2vw; 
+    } */
 }
 
 @media screen and (max-width: 500px) {
@@ -203,10 +206,10 @@ section.image .image-container img {
         width: 60vw;
         height: 60vw;
     }
-    .hello-btns button {
+    /* .hello-btns button {
         font-size: 2.5vw;
-        /* padding: 1.2vw; */
-    }
+        /* padding: 1.2vw; 
+    } */
 }
 
 @media screen and (max-width: 399px) {

@@ -16,6 +16,7 @@ main.projects .title {
     align-items: center;
     position: relative;
     font-size: 45px;
+    font-size: clamp(1.5rem, 7vw, 3rem);
     font-weight: 700;
 }
 
@@ -33,7 +34,7 @@ main.projects .title .icon {
     grid-template-columns: repeat(3, auto);
     grid-column-gap: 3rem;
     grid-row-gap: 4rem;
-    margin-top: 2rem;
+    margin: 2rem 0 3rem 0;
 }
 
 .project .img-container {
@@ -57,6 +58,7 @@ main.projects .title .icon {
 
 .project .project-tag {
     font-size: 14px;
+    font-size: clamp(0.6rem, 1.5vw, 1rem);
     position: absolute;
     top: 0;
     margin-top: 1rem;
@@ -68,14 +70,14 @@ main.projects .title .icon {
 
 .project .project-title {
     margin-top: 1.5rem;
-    font-size: 18px;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
     text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
     .project .project-tag {
-        font-size: 1vw;
-        padding: 1vw;
+        /* font-size: 1vw; */
+        /* padding: 1vw; */
     }
 }
 
@@ -91,9 +93,9 @@ main.projects .title .icon {
         width: 80%;
         margin: 10% auto 0 auto;
     }
-    main.projects .title {
+    /* main.projects .title {
         font-size: 7vw;
-    }
+    } */
     main.projects .title .icon {
         display: none;
     }
