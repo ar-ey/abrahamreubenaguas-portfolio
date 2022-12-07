@@ -30,7 +30,7 @@ export default function Home() {
                 </section>
                 <section className="small-info home-text">
                     <h1>some info about me...</h1>
-                    <p>I am currently taking up my 4th year in bachelor’s degree of Information Technology and I am focused most especially in web development career. I showcase here some of my projects and designs. Hope you’ll like it.</p>
+                    <p>I am currently taking up my 4th year in bachelor’s degree of Information Technology and I am focused most especially in software development career. I showcase here some of my projects and designs. Hope you’ll like it.</p>
                     <div className="hello-btns two">
                         <Link to="/about"><button className="btn btn-blue read">read more</button></Link>
 
