@@ -15,7 +15,7 @@ export default [
         tag: "FULL STACK WEB APP",
         tagcolor: "#ffaf00",
         tagtext: "#2d2d2d",
-        link: "http://medicare.com/dashboard.php"
+        link: "https://abrahamreubenaguas-portfolio.vercel.app/projects"
 
     },
     {
