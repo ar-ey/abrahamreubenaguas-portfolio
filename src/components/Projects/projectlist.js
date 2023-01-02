@@ -10,6 +10,15 @@ export default [
     },
     {
         id: 2,
+        image_url: require('../../assets/images/project4.png'),
+        title: "Full Stack E-commerce Site",
+        tag: "FULL STACK WEB APP",
+        tagcolor: "#ffaf00",
+        tagtext: "#2d2d2d",
+        link: "https://abrahamreubenaguas-portfolio.vercel.app/projects"
+    },
+    {
+        id: 3,
         image_url: require('../../assets/images/project2.png'),
         title: "Hospital Information System",
         tag: "FULL STACK WEB APP",
@@ -19,7 +28,7 @@ export default [
 
     },
     {
-        id: 3,
+        id: 4,
         image_url: require('../../assets/images/project3.png'),
         title: "Food Ordering App",
         tag: "FRONT-END / BOOTSTRAP",
