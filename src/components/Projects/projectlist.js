@@ -42,7 +42,7 @@ export default [
         image_url: require('../../assets/images/project3.png'),
         title: "Food Ordering App",
         tag: "FRONT-END / BOOTSTRAP",
-        tagcolor: "#ffaf00",
+        tagcolor: "#5177ff",
         tagtext: "#2d2d2d",
         link: "https://ar-ey.github.io/e-commerce.github.io/"
     }
