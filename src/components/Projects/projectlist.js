@@ -19,6 +19,16 @@ export default [
     },
     {
         id: 3,
+        image_url: require('../../assets/images/cpsproj.png'),
+        title: "CPS Website",
+        tag: "FULL STACK WEB APP / CMS",
+        tagcolor: "#ffaf00",
+        tagtext: "#2d2d2d",
+        link: "https://cps.neu.edu.ph/home"
+
+    },
+    {
+        id: 4,
         image_url: require('../../assets/images/project2.png'),
         title: "Hospital Information System",
         tag: "FULL STACK WEB APP",
@@ -28,7 +38,7 @@ export default [
 
     },
     {
-        id: 4,
+        id: 5,
         image_url: require('../../assets/images/project3.png'),
         title: "Food Ordering App",
         tag: "FRONT-END / BOOTSTRAP",
