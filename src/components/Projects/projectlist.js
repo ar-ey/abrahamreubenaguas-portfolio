@@ -1,5 +1,4 @@
-export default [
-    {
+export default [{
         id: 1,
         image_url: require('../../assets/images/project.png'),
         title: "E-commerce UI Design",
@@ -43,7 +42,7 @@ export default [
         title: "Food Ordering App",
         tag: "FRONT-END / BOOTSTRAP",
         tagcolor: "#5177ff",
-        tagtext: "#2d2d2d",
+        tagtext: "#fff",
         link: "https://ar-ey.github.io/e-commerce.github.io/"
     }
 ]
