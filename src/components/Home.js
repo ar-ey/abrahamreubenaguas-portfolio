@@ -17,7 +17,7 @@ export default function Home() {
                 <section className="hello home-text">
                     <p>hello, I am</p>
                     <h1>ABRAHAM</h1>
-                    <p>Student Web Developer | UI Designer </p>
+                    <p>Software Engineer</p>
                     <div className="hello-btns one flex">
                         <Link to="/blog"><button className="btn btn-blue">read blog</button></Link>
                         {/* <button className="btn btn-blue video" onClick={videoClicked}>Watch my Video Resume <BsFillPlayCircleFill className="play-icon" /></button> */}
