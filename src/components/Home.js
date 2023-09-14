@@ -25,7 +25,7 @@ export default function Home() {
                 </section>
                 <section className="image">
                     <div className="image-container">
-                        <img src={require('../assets/images/IMG_0616.jpg')} alt="" />
+                        <img src={require('../assets/images/IMG_4859.jpg')} alt="" />
                     </div>
                 </section>
                 <section className="small-info home-text">
