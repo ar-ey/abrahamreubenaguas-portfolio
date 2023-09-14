@@ -25,12 +25,15 @@ export default function Home() {
                 </section>
                 <section className="image">
                     <div className="image-container">
-                        <img src={require('../assets/images/image.jpg')} alt="" />
+                        <img src={require('../assets/images/IMG_0616.jpg')} alt="" />
                     </div>
                 </section>
                 <section className="small-info home-text">
                     <h1>some info about me...</h1>
-                    <p>I am currently taking up my 4th year in bachelor’s degree of Information Technology and I am focused most especially in software development career. I showcase here some of my projects and designs. Hope you’ll like it.</p>
+                    <p>Motivated software engineer looking for opportunities to develop essential skills and have a
+                        meaningful impact to the company . Showed ability to design and develop software which satisfied the needs of
+                        the client. A productive person committed to continuous learning and professional growth, staying updated with
+                        the latest emerging technologies and trends to deliver innovative solutions.</p>
                     <div className="hello-btns two">
                         <Link to="/about"><button className="btn btn-blue read">read more</button></Link>
 
