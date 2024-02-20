@@ -26,7 +26,7 @@ export default function Nav() {
                         <li className="link"><Link to="/home" onClick={toggleMenu}>home</Link></li>
                         <li className="link"><Link to="/projects" onClick={toggleMenu}>projects</Link></li>
                         <div className="logo-space"></div>
-                        <li className="link"><Link to="/about" onClick={toggleMenu}>about</Link></li>
+                        <li className="link"><Link to="/certificates" onClick={toggleMenu}>certificates</Link></li>
                         <li className="link"><Link to="/contact" onClick={toggleMenu}>contact</Link></li>
                     </ul></section>
                 <div className="logo">ar-ey</div>

@@ -1,20 +1,19 @@
 import React from "react";
 
-export default function Project(props) {
+export default function Certificate(props) {
     const tag_styles = {
         background: props.tagcolor,
-        color: props.tagtextcolor,
+        color: props.tagtext,
 
     }
     return (
-        <div className="project">
+        <div className="certificate">
             <a href={props.link} target="_blank">
                 <div className="img-container" >
                     <img src={props.image} alt={props.title} />
-                    <p className="project-title">{props.title}</p>
+                    {/* <p className="certificate-title">{props.title}</p> */}
                 </div>
-
-                <div className="project-tag" style={tag_styles}>{props.tag}</div>
+                <div className="certificate-tag" style={tag_styles}>{props.tag}</div>
             </a>
         </div>
 
