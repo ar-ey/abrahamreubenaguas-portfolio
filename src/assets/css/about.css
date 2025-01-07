@@ -41,7 +41,7 @@ section.certificates .title .icon {
 .certificates-container {
   justify-content: space-between;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 3rem;
   grid-row-gap: 4rem;
   margin-top: 2rem;
